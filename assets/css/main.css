@@ -718,6 +718,28 @@ section,
   background-color: var(--accent-color);
 }
 
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.skills .content ul strong {
+  margin-right: 10px;
+}
+
+.skills .content ul i {
+  font-size: 24px;
+  margin-right: 5px;
+  color: var(--accent-color);
+  line-height: 0;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
@@ -736,12 +758,21 @@ section,
   position: relative;
 }
 
-.resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
+.resume .resume-item h3 {
+  line-height: 22px;
+  font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-bottom: 10px;
 }
 
