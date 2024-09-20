@@ -959,7 +959,12 @@ section,
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.testimonials .testimonial-item .testimonial-img-sqr {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-item .testimonial-img-cir {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
